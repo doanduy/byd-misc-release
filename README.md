@@ -1,6 +1,6 @@
 # byd-misc-release
 
-Public APK releases and per-project update manifests for BYD apps. Source code, signing keys, diagnostics and camera images are not stored here.
+Public APK releases and per-project update manifests for BYD apps. Source code and signing keys are not stored here. Voluntarily submitted public diagnostic ZIPs are stored under logs/<app-id>/YYYY/MM/. See [BYD Camera log setup](logs/byd-camera/README.md).
 
 ## Projects
 
@@ -30,6 +30,6 @@ Required fields: schemaVersion, appId, packageName, versionName, versionCode, mi
 
 ## Install and update BYD Camera
 
-Install 0.3.1 manually once. In Settings, select **Kiểm tra bản cập nhật**. The app selects a supported ABI and verifies SHA-256, size, package, versionCode and signing certificate before opening Android installation. Grant permission to install from BYD Camera when prompted, then select **Cài APK đã tải**. Android asks for installation confirmation.
+Install 0.3.1 manually once. In 0.3.2+, open the Updates tab and select **Kiểm tra bản cập nhật**. The app selects a supported ABI and verifies SHA-256, size, package, versionCode and signing certificate before opening Android installation. Grant permission to install from BYD Camera when prompted, then select **Cài APK đã tải**. Android asks for installation confirmation.
 
-Requires Android 10/API 29 or newer. No GitHub login or token is needed on the vehicle. Firmware-specific installation restrictions still apply.
+Requires Android 10/API 29 or newer. Downloading updates needs no GitHub token. Uploading diagnostic ZIPs requires a repository-scoped token entered on the vehicle. Firmware-specific installation restrictions still apply.
