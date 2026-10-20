@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "appId": "byd-camera",
+  "packageName": "vn.duy.bydcamera",
+  "versionName": "0.3.1",
+  "versionCode": 9,
+  "minSdk": 29,
+  "notes": "Thêm cập nhật APK từ GitHub trong Cài đặt. Giữ tính năng ghép trực tiếp (cần hiệu chỉnh camera).",
+  "assets": {
+    "arm64-v8a": {
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.1/BYD-Camera-0.3.1-release-arm64.apk",
+      "size": 26031568,
+      "sha256": "2296867cb7a51e6adfd83caab083d9af496c2109e1cfb96d8c5656a249b76c69"
+    },
+    "armeabi-v7a": {
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.1/BYD-Camera-0.3.1-release-arm32.apk",
+      "size": 17460452,
+      "sha256": "df8a8086bc960db81de88dacb37bcc65d47f455d01c7175aa39971ad8a94f14f"
+    }
+  }
+}
