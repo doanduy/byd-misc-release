@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.15",
-  "versionCode": 23,
+  "versionName": "0.3.16",
+  "versionCode": 24,
   "minSdk": 29,
-  "notes": "Thêm lựa chọn Lưu ảnh gốc: giữ độ phân giải nguồn của bốn camera và render riêng các góc đã nắn. Cả hai chế độ lưu đủ bộ ảnh vào thư mục riêng, tên PNG kèm độ phân giải, không ghi đè lẫn nhau. Ảnh ghép giữ kích thước của bộ ghép. Cải thiện xuất ZIP ảnh lớn. Đã kiểm tra build, lint, unit test và 3 kiểm thử trên giả lập. ZIP vượt giới hạn gửi 20 MB có thể xuất để gửi thủ công.",
+  "notes": "Tổ chức Camera thành 4 tab: Camera 360 (4 ảnh gốc), Camera 360 ghép (toàn vùng), Camera điểm mù (cột A ghế lái/phụ ở trên, gương trái/phải ở dưới), Camera sau. Tích hợp góc cột A theo bộ E đã duyệt. Lưu đủ bộ ảnh từ mọi tab, bao gồm hai ảnh cột A và cấu hình; giữ hai chế độ lưu thường/gốc riêng. Đã kiểm tra build, lint, unit test và 3 kiểm thử giả lập, đối chiếu shader với ảnh tham chiếu. Góc điểm mù là ước lượng, cần kiểm tra trên xe thực tế.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.15/BYD-Camera-0.3.15-release-arm64.apk",
-      "size": 214521,
-      "sha256": "1cd3fb96cd513de6eba77f01cde4a8cc91e15915652a4ad56ad0d08a600539e0"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.16/BYD-Camera-0.3.16-release-arm64.apk",
+      "size": 216278,
+      "sha256": "81cb3c32a06da00d4f58cfbba5f26a1a6cbd76fb4a0dfebd204f627dec1dd50e"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.15/BYD-Camera-0.3.15-release-arm32.apk",
-      "size": 214521,
-      "sha256": "1cd3fb96cd513de6eba77f01cde4a8cc91e15915652a4ad56ad0d08a600539e0"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.16/BYD-Camera-0.3.16-release-arm32.apk",
+      "size": 216278,
+      "sha256": "81cb3c32a06da00d4f58cfbba5f26a1a6cbd76fb4a0dfebd204f627dec1dd50e"
     }
   }
 }
