@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.7",
-  "versionCode": 15,
+  "versionName": "0.3.8",
+  "versionCode": 16,
   "minSdk": 29,
-  "notes": "Sửa đọc chữ ký APK tương thích DiLink. Nếu bản cũ báo lỗi chữ ký, tải APK bằng trình duyệt và cài đè 0.3.7 thủ công một lần; không gỡ app.",
+  "notes": "Camera → Chỉnh góc / Crop: chỉnh trực tiếp chế độ nắn, Phóng / Ngang / Dọc riêng Trái, Phải, Sau. Có Lưu, Hủy, Khôi phục. Camera sau thêm Tiêu chuẩn / Góc rộng; ảnh thô giữ nguyên.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.7/BYD-Camera-0.3.7-release-arm64.apk",
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.8/BYD-Camera-0.3.8-release-arm64.apk",
       "size": 26047952,
-      "sha256": "9212f4d587c9b2a404b091e667740b10444ce7262a05d963dd1ce7df365b4333"
+      "sha256": "633d716eafed6fd5880970880bd84e30e3a9ce4f15100c4ac71c01394e4a3f58"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.7/BYD-Camera-0.3.7-release-arm32.apk",
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.8/BYD-Camera-0.3.8-release-arm32.apk",
       "size": 17476836,
-      "sha256": "2ef72df06f44a79666e2466423cd88d57213f313792cc5516fa3e69b078e0d6d"
+      "sha256": "c038414dc70821006564297014a0b9b3852f44ea275648e92bf34ef26f0ebbeb"
     }
   }
 }
