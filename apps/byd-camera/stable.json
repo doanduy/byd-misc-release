@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.2",
-  "versionCode": 10,
+  "versionName": "0.3.6",
+  "versionCode": 14,
   "minSdk": 29,
-  "notes": "Bốn tab Camera, Cấu hình, Chẩn đoán, Cập nhật. Gửi ZIP công khai bằng token riêng được mã hóa.",
+  "notes": "Sau khi cập nhật: Cấu hình → Tìm và dùng camera 360 của xe → Xem thử trái/phải. Tìm nguồn pano_h/pano_l, hướng xoay và nắn méo theo Kachi; cần kiểm chứng bốn camera trên xe.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.2/BYD-Camera-0.3.2-release-arm64.apk",
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.6/BYD-Camera-0.3.6-release-arm64.apk",
       "size": 26047952,
-      "sha256": "3020b92de7b577a337b43f174815551fa768ce38f04f96d37448f52cc9afe5d7"
+      "sha256": "882686666fcc2c4f2274195e8c2f458336875906ec93b13a35236d5274d31afa"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.2/BYD-Camera-0.3.2-release-arm32.apk",
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.6/BYD-Camera-0.3.6-release-arm32.apk",
       "size": 17476836,
-      "sha256": "c7535216ee36a1e496505aefc8407fb9bfeedaf948d7e749a8810bf441fa2496"
+      "sha256": "84886a5c44d5ec9e8e83c31545c7d875dc53757e17b4291240f921d7418fe9fb"
     }
   }
 }
