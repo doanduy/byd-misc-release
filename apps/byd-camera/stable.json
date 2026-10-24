@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.10",
-  "versionCode": 18,
+  "versionName": "0.3.12",
+  "versionCode": 20,
   "minSdk": 29,
-  "notes": "Cột 1 chuyển giữa Ghép ảnh trực tiếp và 4 camera mắt cá. Một nút Lưu tất cả ảnh lưu đồng bộ 4 mắt cá, ảnh ghép, cột 2 và cột 3 vào saved-images/ trong ZIP log. Chỉnh ghép thử có Cấu hình mẫu như ảnh review; ghép vẫn là ước lượng.",
+  "notes": "Hiệu chỉnh ghép realtime cột 1 và cập nhật ảnh xe nền trong suốt. Bỏ OpenCV khỏi APK, giữ hỗ trợ JSON hiệu chỉnh bằng Java; APK khoảng 205 KB. ZIP log kèm cấu hình ghép. Chọn Cấu hình mẫu nếu đã chỉnh slider trước đó. Hình ghép vẫn là ước lượng; bản này chưa kiểm tra trực tiếp trên xe.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.10/BYD-Camera-0.3.10-release-arm64.apk",
-      "size": 26064340,
-      "sha256": "e0b419d4d81c2d2a10300afe5a0ee79623f7d4da74e30561641d49276321941a"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.12/BYD-Camera-0.3.12-release-arm64.apk",
+      "size": 204526,
+      "sha256": "4f19677940e09faaa1370de16c2078db87d99ffd78107fa9a40c5c519ff12949"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.10/BYD-Camera-0.3.10-release-arm32.apk",
-      "size": 17493224,
-      "sha256": "d746974e1ca95db6fe07e0279895c7945519d2da26a0d9d58037408174e3c6d3"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.12/BYD-Camera-0.3.12-release-arm32.apk",
+      "size": 204526,
+      "sha256": "4f19677940e09faaa1370de16c2078db87d99ffd78107fa9a40c5c519ff12949"
     }
   }
 }
