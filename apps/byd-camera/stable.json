@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.18",
-  "versionCode": 26,
+  "versionName": "0.3.19",
+  "versionCode": 27,
   "minSdk": 29,
-  "notes": "Thêm nút Xóa tất cả ảnh tạm trong Chẩn đoán để dọn bộ ảnh thường, ảnh gốc, ảnh ghép và ảnh chẩn đoán trước phiên chụp mới. Giữ nguyên cấu hình, token và nhật ký; không xóa ZIP đã xuất hoặc đã gửi GitHub. Đã kiểm tra build, lint, unit test và kiểm thử xuất ZIP sau khi xóa trên giả lập.",
+  "notes": "Điều chỉnh góc hai bánh trước để thấy thêm phần đầu xe và vùng đường phía trước. Áp dụng cấu hình đối xứng trái/phải cho xem trực tiếp, ảnh lưu và ZIP chẩn đoán.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.18/BYD-Camera-0.3.18-release-arm64.apk",
-      "size": 220585,
-      "sha256": "4fd73b781a52b8d8e5d002cf88e16f642c3464cac97472a448eec5b0340dd1b2"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.19/BYD-Camera-0.3.19-release-arm64.apk",
+      "size": 220593,
+      "sha256": "06f1a5bd3e2a9094d87722c1a224a96e7756fc85eb9f26795cba4e2db7ffc114"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.18/BYD-Camera-0.3.18-release-arm32.apk",
-      "size": 220585,
-      "sha256": "4fd73b781a52b8d8e5d002cf88e16f642c3464cac97472a448eec5b0340dd1b2"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.19/BYD-Camera-0.3.19-release-arm32.apk",
+      "size": 220593,
+      "sha256": "06f1a5bd3e2a9094d87722c1a224a96e7756fc85eb9f26795cba4e2db7ffc114"
     }
   }
 }
