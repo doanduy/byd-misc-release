@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.21",
-  "versionCode": 29,
+  "versionName": "0.3.22",
+  "versionCode": 30,
   "minSdk": 29,
-  "notes": "Thêm tab Góc cam hông, hiển thị đồng thời hông trái và hông phải bằng bộ nắn song song đã duyệt. Giữ các tùy chỉnh góc nhìn đã lưu của từng bên.",
+  "notes": "Tối ưu góc nhìn từ trên xuống bằng GPU, giữ bộ hiệu chỉnh đã duyệt. Chuẩn bị bản đồ nắn một lần, bỏ đọc ảnh về CPU và nén PNG/ZIP trong đường hiển thị BEV mặc định. Bổ sung log hiệu năng; lưu bộ ảnh đầy đủ vẫn được hỗ trợ. Nhánh calibration JSON riêng tiếp tục dùng CPU. Đã kiểm tra build, chữ ký và đối chiếu hình ảnh trên giả lập; hiệu năng thực tế cần kiểm chứng trên đầu xe.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.21/BYD-Camera-0.3.21-release-arm64.apk",
-      "size": 220737,
-      "sha256": "509953129871d799547f3c2d92ce2a5a771a7bcfc9a2de63164a63827f40e28b"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.22/BYD-Camera-0.3.22-release-arm64.apk",
+      "size": 225417,
+      "sha256": "24f28a68ab60815820dad0ef341dda6ddbeafd087aaa546cee5ef194fa52e816"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.21/BYD-Camera-0.3.21-release-arm32.apk",
-      "size": 220737,
-      "sha256": "509953129871d799547f3c2d92ce2a5a771a7bcfc9a2de63164a63827f40e28b"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.22/BYD-Camera-0.3.22-release-arm32.apk",
+      "size": 225417,
+      "sha256": "24f28a68ab60815820dad0ef341dda6ddbeafd087aaa546cee5ef194fa52e816"
     }
   }
 }
