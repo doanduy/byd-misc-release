@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.23",
-  "versionCode": 31,
+  "versionName": "0.3.24",
+  "versionCode": 32,
   "minSdk": 29,
-  "notes": "Bổ sung tùy chọn Mở cửa sổ nổi khi xi nhan, mặc định tắt. Cửa sổ gồm 7 tab, hỗ trợ thay đổi kích thước, logic tốc độ/xi nhan/hazard và cặp camera cluster; giữ các góc quan sát đã duyệt. Nguồn camera/render tách khỏi Activity bằng daemon. Đây là bản cập nhật trực tiếp cho BYD Camera hiện tại: cùng package và chữ ký, không cần gỡ app. Sau cập nhật, cấp quyền cửa sổ nổi và bật tùy chọn trong Cấu hình nếu muốn thử. Khi tùy chọn tắt, giữ hành vi camera cũ. Đã kiểm tra build, lint, 29 kiểm thử JVM và cập nhật đè 0.3.22 lên 0.3.23 trên emulator. Chức năng daemon còn cần thử trên DiLink 3: hiện nhường khi phát hiện OEM giữ nguồn; chưa xác minh giữ live khi OEM tự bật, nút camera vật lý và camera lùi trên xe. Capture từ daemon chưa được bổ sung; tắt daemon để lưu bộ ảnh bằng nút hiện tại.",
+  "notes": "Giao diện chính được tinh gọn còn Cấu hình, Chẩn đoán và Cập nhật. Camera chỉ hiển thị trong cửa sổ nổi hoặc trên cụm đồng hồ. Cụm có 4 lựa chọn: gương + cột A theo phía xi nhan; cột A trái/phải; gương trái/phải; một ô camera sau. Giữ nguyên các góc đã duyệt và bố cục 7 tab của cửa sổ nổi. Chuyển cấp quyền, ADB, nguồn camera và vùng hiển thị cụm sang Chẩn đoán; bỏ chế độ chỉ chạy khi mở app và widget demo. Sửa lỗi nguồn camera có thể ngừng mở sau nhiều lần chuyển bố cục. APK khoảng 223 KiB, cập nhật đè bằng package và chữ ký cũ. Đã qua build/lint, 35 kiểm thử đơn vị, 4 kiểm thử emulator và cài đè từ 0.3.23. Chưa kiểm chứng trên DiLink 3 thật; vẫn nhường camera OEM/số lùi theo các điều kiện bảo vệ hiện tại. Cần mở app sau khi đầu xe khởi động lại. Daemon chưa chụp bộ ảnh mới; ZIP gồm nhật ký, cấu hình và ảnh đã lưu từ trước nếu có.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.23/BYD-Camera-0.3.23-release-arm64.apk",
-      "size": 280141,
-      "sha256": "ef50fc85ea1dcdfb9911fd3dc71c8f2e8d6ebbdbe9858373d05666a485ca1313"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.24/BYD-Camera-0.3.24-release-arm64.apk",
+      "size": 228765,
+      "sha256": "6f52ffb737f25f4f4cc4fa692d9778a3119c546a56722855d3e10ecbaab25b59"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.23/BYD-Camera-0.3.23-release-arm32.apk",
-      "size": 280141,
-      "sha256": "ef50fc85ea1dcdfb9911fd3dc71c8f2e8d6ebbdbe9858373d05666a485ca1313"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.24/BYD-Camera-0.3.24-release-arm32.apk",
+      "size": 228765,
+      "sha256": "6f52ffb737f25f4f4cc4fa692d9778a3119c546a56722855d3e10ecbaab25b59"
     }
   }
 }
