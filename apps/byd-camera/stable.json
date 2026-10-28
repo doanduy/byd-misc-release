@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.28",
-  "versionCode": 36,
+  "versionName": "0.3.29",
+  "versionCode": 37,
   "minSdk": 29,
-  "notes": "Làm rõ điều kiện P chỉ dành cho khởi tạo hoặc khôi phục phiên chiếu cụm. Phiên đã sẵn sàng được giữ khi chuyển D; camera hiển thị theo xi nhan khi xe chạy. Cập nhật hướng dẫn trong Cấu hình và Chẩn đoán. Giữ cơ chế nhường camera lùi OEM. Mở app sau khi khởi động màn, chờ phiên chiếu sẵn sàng khi xe ở P trước khi di chuyển. Bản này làm rõ trạng thái và hướng dẫn, không thay đổi lệnh mở cụm; cần kiểm chứng trên xe thật. Cài cập nhật đè bản cũ.",
+  "notes": "Cửa sổ camera luôn mở toàn vùng màn hình khả dụng mỗi lần xuất hiện, kể cả khi lần trước đã thu nhỏ. Vẫn cho phép di chuyển và resize trong lần xem hiện tại. Giữ nguyên thanh hệ thống, các góc camera và vùng hiển thị trên cụm. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.28/BYD-Camera-0.3.28-release-arm64.apk",
-      "size": 248341,
-      "sha256": "faa56cbf2a3769a1600979f2af043c7d3f6c21a02da9d7d7e4965a0e89403c82"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.29/BYD-Camera-0.3.29-release-arm64.apk",
+      "size": 248389,
+      "sha256": "ba5c4ca7d46bb3eec5f2010133327fdc7c859655de157f76c913f3e7de0c9d97"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.28/BYD-Camera-0.3.28-release-arm32.apk",
-      "size": 248341,
-      "sha256": "faa56cbf2a3769a1600979f2af043c7d3f6c21a02da9d7d7e4965a0e89403c82"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.29/BYD-Camera-0.3.29-release-arm32.apk",
+      "size": 248389,
+      "sha256": "ba5c4ca7d46bb3eec5f2010133327fdc7c859655de157f76c913f3e7de0c9d97"
     }
   }
 }
