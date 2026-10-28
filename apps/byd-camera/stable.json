@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.29",
-  "versionCode": 37,
+  "versionName": "0.3.30",
+  "versionCode": 38,
   "minSdk": 29,
-  "notes": "Cửa sổ camera luôn mở toàn vùng màn hình khả dụng mỗi lần xuất hiện, kể cả khi lần trước đã thu nhỏ. Vẫn cho phép di chuyển và resize trong lần xem hiện tại. Giữ nguyên thanh hệ thống, các góc camera và vùng hiển thị trên cụm. Cài cập nhật đè bản cũ.",
+  "notes": "Thêm ngưỡng tốc độ hỗ trợ đỗ xe 1–30 km/h, mặc định 10 km/h. Khi bật xi nhan, cửa sổ nổi tự chọn góc đỗ xe khi tốc độ không vượt ngưỡng và góc khi xe chạy khi vượt ngưỡng. Giao diện cài đặt gọn hơn, trạng thái quyền rõ ràng; công cụ log và token mở ngay dưới mục Nhà phát triển. Giữ nguyên profile camera và ưu tiên camera OEM khi lùi. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.29/BYD-Camera-0.3.29-release-arm64.apk",
-      "size": 248389,
-      "sha256": "ba5c4ca7d46bb3eec5f2010133327fdc7c859655de157f76c913f3e7de0c9d97"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.30/BYD-Camera-0.3.30-release-arm64.apk",
+      "size": 246193,
+      "sha256": "8abe55d12420914ddf654c01c1cfe035945869ffba111b5b948037dda5c6a19f"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.29/BYD-Camera-0.3.29-release-arm32.apk",
-      "size": 248389,
-      "sha256": "ba5c4ca7d46bb3eec5f2010133327fdc7c859655de157f76c913f3e7de0c9d97"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.30/BYD-Camera-0.3.30-release-arm32.apk",
+      "size": 246193,
+      "sha256": "8abe55d12420914ddf654c01c1cfe035945869ffba111b5b948037dda5c6a19f"
     }
   }
 }
