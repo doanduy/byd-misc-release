@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.31",
-  "versionCode": 39,
+  "versionName": "0.3.32",
+  "versionCode": 40,
   "minSdk": 29,
-  "notes": "Camera tạm phủ lên nội dung đang chiếu trên cụm khi bật xi nhan; khi kết thúc xi nhan chỉ gỡ cửa sổ camera, giữ phiên chiếu và nội dung bên dưới. Tự nhận màn cụm công khai đang hoạt động, không khởi tạo lại phiên chiếu đó. Thêm cache nắn ảnh theo kích thước từng ô, dùng độ phân giải đầy đủ khi phóng to và log hiệu năng chi tiết. Giữ nguyên góc camera, ngưỡng tốc độ đã lưu và ưu tiên camera lùi OEM. Cài cập nhật đè bản cũ.",
+  "notes": "Chuyển cửa sổ camera trên cụm sang daemon quyền shell để phủ tạm lên nội dung dẫn đường. Khi hết xi nhan hoặc cần nhường camera xe, chỉ gỡ cửa sổ Camera, giữ nội dung và phiên chiếu bên dưới. Thêm log display thực tế, lỗi cửa sổ và tốc độ/số xe cùng số đo FPS. Giữ nguyên các góc camera và thiết lập hiện tại. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.31/BYD-Camera-0.3.31-release-arm64.apk",
-      "size": 253193,
-      "sha256": "c00f25a28f35214b0a80e13e29095591e1e06c9bf8f91bd6ae58fae19fbd5fd3"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.32/BYD-Camera-0.3.32-release-arm64.apk",
+      "size": 258749,
+      "sha256": "3f791f3750edf5271d2c5548b4da88d5a445e36759402d49c9d5ee157092a3b8"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.31/BYD-Camera-0.3.31-release-arm32.apk",
-      "size": 253193,
-      "sha256": "c00f25a28f35214b0a80e13e29095591e1e06c9bf8f91bd6ae58fae19fbd5fd3"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.32/BYD-Camera-0.3.32-release-arm32.apk",
+      "size": 258749,
+      "sha256": "3f791f3750edf5271d2c5548b4da88d5a445e36759402d49c9d5ee157092a3b8"
     }
   }
 }
