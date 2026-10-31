@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.39",
-  "versionCode": 47,
+  "versionName": "0.3.40",
+  "versionCode": 49,
   "minSdk": 29,
-  "notes": "Thêm hai lựa chọn sau khi học nút vô lăng: Hiện trên màn trung tâm và Hiện trên cụm cluster. Có thể chọn một hoặc cả hai màn; lựa chọn được lưu riêng, độc lập với cấu hình tự mở khi xi nhan. Tắt cả hai để ngừng gọi camera bằng nút. Nhấn lần nữa để đóng; giữ ưu tiên camera OEM và camera lùi. Đã kiểm thử các tổ hợp đầu ra trên giả lập; cần kiểm chứng nút vô lăng thực tế trên DiLink. Cài cập nhật đè bản cũ.",
+  "notes": "Thêm setting Phủ lên camera 360 của xe, mặc định tắt. Khi màn camera OEM xuất hiện, cửa sổ app phủ 50% bên phải, giữ nửa trái cho camera xe; tự gỡ khi OEM đóng. Hoạt động theo trạng thái màn OEM, không cần xi nhan hoặc học nút. Giới hạn phóng to trong nửa phải; nguồn lỗi/mất hình thì gỡ và chờ phiên OEM tiếp theo. Vẫn nhường toàn màn khi vào số lùi. Đã kiểm thử giả lập; cần xác nhận hai nguồn cùng live và các trigger nút/cảm biến trên DiLink thực tế. Cài cập nhật đè bản cũ và bản preview.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.39/BYD-Camera-0.3.39-release-arm64.apk",
-      "size": 273193,
-      "sha256": "e9a3dbbf267b8e50267a3ab023de8948f0536958343e4c263aeb87f69d301b13"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.40/BYD-Camera-0.3.40-release-arm64.apk",
+      "size": 277497,
+      "sha256": "c7a5405137126a9005f765b25225cebe17bf0ca605644942f2d87072b691fbfe"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.39/BYD-Camera-0.3.39-release-arm32.apk",
-      "size": 273193,
-      "sha256": "e9a3dbbf267b8e50267a3ab023de8948f0536958343e4c263aeb87f69d301b13"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.40/BYD-Camera-0.3.40-release-arm32.apk",
+      "size": 277497,
+      "sha256": "c7a5405137126a9005f765b25225cebe17bf0ca605644942f2d87072b691fbfe"
     }
   }
 }
