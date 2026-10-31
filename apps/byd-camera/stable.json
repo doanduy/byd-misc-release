@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.38",
-  "versionCode": 46,
+  "versionName": "0.3.39",
+  "versionCode": 47,
   "minSdk": 29,
-  "notes": "Thêm chọn tab mặc định khi mở cửa sổ camera: Auto theo tốc độ hoặc một tab cố định. Thêm học nút vô lăng qua quyền Trợ năng: nhấn một lần mở, nhấn lại tắt cửa sổ nổi/cụm theo đầu ra đã bật. Lưu nút đã học và chống lặp khi giữ phím. Giữ ưu tiên camera OEM và camera lùi. Đã kiểm thử logic và daemon trên giả lập; khả năng nhận nút vô lăng cần kiểm chứng trên DiLink. Cài cập nhật đè bản cũ.",
+  "notes": "Thêm hai lựa chọn sau khi học nút vô lăng: Hiện trên màn trung tâm và Hiện trên cụm cluster. Có thể chọn một hoặc cả hai màn; lựa chọn được lưu riêng, độc lập với cấu hình tự mở khi xi nhan. Tắt cả hai để ngừng gọi camera bằng nút. Nhấn lần nữa để đóng; giữ ưu tiên camera OEM và camera lùi. Đã kiểm thử các tổ hợp đầu ra trên giả lập; cần kiểm chứng nút vô lăng thực tế trên DiLink. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.38/BYD-Camera-0.3.38-release-arm64.apk",
-      "size": 271457,
-      "sha256": "e205dff0a28e15d608c65f1ef07f7c3c78411daec775c8fa4dd0adce936921ac"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.39/BYD-Camera-0.3.39-release-arm64.apk",
+      "size": 273193,
+      "sha256": "e9a3dbbf267b8e50267a3ab023de8948f0536958343e4c263aeb87f69d301b13"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.38/BYD-Camera-0.3.38-release-arm32.apk",
-      "size": 271457,
-      "sha256": "e205dff0a28e15d608c65f1ef07f7c3c78411daec775c8fa4dd0adce936921ac"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.39/BYD-Camera-0.3.39-release-arm32.apk",
+      "size": 273193,
+      "sha256": "e9a3dbbf267b8e50267a3ab023de8948f0536958343e4c263aeb87f69d301b13"
     }
   }
 }
