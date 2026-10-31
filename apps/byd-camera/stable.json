@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.36",
-  "versionCode": 44,
+  "versionName": "0.3.37",
+  "versionCode": 45,
   "minSdk": 29,
-  "notes": "Sửa nhận diện phiên chiếu cụm khi màn hình ảo vẫn còn sau khi đóng. Màn cụm trống sẽ được kích hoạt lại; phiên có nội dung ứng dụng khác được giữ nguyên. Bổ sung log kiểm tra và lý do đóng phiên. Giữ nguyên góc camera, xi nhan, ưu tiên camera xe và cài đặt tối ưu luồng. Kiểm thử phần mềm đạt; cần kiểm chứng hiển thị trên DiLink thực tế. Cài cập nhật đè bản cũ.",
+  "notes": "Sửa vòng đời camera khi đổi góc và bật/tắt hiển thị. Cụm giữ nguyên cửa sổ và nguồn khi đổi bên; tạo đầu nhận hình mới khi mở lại nguồn. Xóa frame cuối trước khi gỡ ô camera, ưu tiên render cụm và thêm số đo từng đầu ra. Bổ sung nhận diện camera OEM để nhường nguồn. Kiểm thử giả lập cụm độc lập và nhiều chu kỳ bật/tắt đạt; cần kiểm chứng thêm trên DiLink thực tế. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.36/BYD-Camera-0.3.36-release-arm64.apk",
-      "size": 263249,
-      "sha256": "b3fe8ef0b89976fb976f2be69070abb3d7471134947e7be92bd1f0443d7c3f2b"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.37/BYD-Camera-0.3.37-release-arm64.apk",
+      "size": 265393,
+      "sha256": "c31c8a514ca0a116b7f36ecf3e009413269a17297dd562440876112a66b6fd81"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.36/BYD-Camera-0.3.36-release-arm32.apk",
-      "size": 263249,
-      "sha256": "b3fe8ef0b89976fb976f2be69070abb3d7471134947e7be92bd1f0443d7c3f2b"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.37/BYD-Camera-0.3.37-release-arm32.apk",
+      "size": 265393,
+      "sha256": "c31c8a514ca0a116b7f36ecf3e009413269a17297dd562440876112a66b6fd81"
     }
   }
 }
