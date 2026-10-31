@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.33",
-  "versionCode": 41,
+  "versionName": "0.3.34",
+  "versionCode": 42,
   "minSdk": 29,
-  "notes": "Thêm công tắc Tối ưu luồng camera để so sánh bật/tắt trực tiếp. Mặc định tắt, giữ cơ chế cũ. Khi bật, giảm vẽ lặp và dừng watchdog camera khi không còn đầu ra; tự chạy lại khi mở camera, bao gồm chiếu cụm. Giữ nguyên góc nhìn, logic xi nhan và ưu tiên camera xe. Kiểm thử giả lập đạt; hiệu năng trên DiLink cần kiểm chứng thực tế. Cài cập nhật đè bản cũ.",
+  "notes": "Sửa khởi tạo context trong daemon để khắc phục lỗi truy cập màn cụm trên Android 10. Giữ nguyên góc camera, xi nhan, ưu tiên camera xe và công tắc tối ưu luồng. Kiểm thử giả lập xác nhận cửa sổ cụm nhận hình; cần kiểm chứng thêm trên DiLink thực tế. Cài cập nhật đè bản cũ.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.33/BYD-Camera-0.3.33-release-arm64.apk",
-      "size": 260709,
-      "sha256": "97e87e6f02c758604c3286f85a9333fd6ef9dbc61db448540d315bd661d55501"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.34/BYD-Camera-0.3.34-release-arm64.apk",
+      "size": 261333,
+      "sha256": "83a86b5828b2430fe7b31e72be253036d4b55ac76f011424d3e026caa6090d7d"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.33/BYD-Camera-0.3.33-release-arm32.apk",
-      "size": 260709,
-      "sha256": "97e87e6f02c758604c3286f85a9333fd6ef9dbc61db448540d315bd661d55501"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.34/BYD-Camera-0.3.34-release-arm32.apk",
+      "size": 261333,
+      "sha256": "83a86b5828b2430fe7b31e72be253036d4b55ac76f011424d3e026caa6090d7d"
     }
   }
 }
