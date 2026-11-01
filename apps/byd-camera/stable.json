@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "appId": "byd-camera",
   "packageName": "vn.duy.bydcamera",
-  "versionName": "0.3.45",
-  "versionCode": 56,
+  "versionName": "0.3.46",
+  "versionCode": 57,
   "minSdk": 29,
-  "notes": "Nhận dạng từng vùng cảm biến bằng tên hằng đọc trực tiếp từ firmware xe. AUTO không còn tự chuyển sang bộ số 0–7/1–8 khi thiếu thông tin; vùng thiếu tên hoặc trùng nghĩa giữ UNKNOWN, các vùng hợp lệ khác vẫn hoạt động. Nếu chỉ còn cảnh báo chưa rõ vị trí, lớp camera app nhường màn camera xe. Giữ hai bộ mã thủ công trong Nhà phát triển. Log ghi mã thô, tên SDK, vị trí chuẩn hoá, trạng thái, góc camera và lý do bỏ qua. Giữ nguyên profile camera, logic xi nhan, ưu tiên camera OEM và nhường toàn màn hình khi vào số R. Đã kiểm thử giả lập; cần đối chiếu từng cảm biến trên xe thực tế.",
+  "notes": "Sửa học nút vô lăng và cấp quyền trên đầu xe thiếu trang cài đặt Trợ năng: dùng kết nối ADB của app để bật riêng dịch vụ BYD Camera, giữ các dịch vụ khác. Hỗ trợ nút chỉ có scan code, nhận phím trên màn cài đặt và qua Trợ năng; có hủy học, thông báo hết thời gian và log chi tiết. Giữ thao tác một lần mở, lần nữa đóng cùng lựa chọn màn trung tâm/cụm riêng. Không đổi góc camera, logic xi nhan, radar hoặc ưu tiên camera OEM khi lùi. Đã kiểm thử giả lập, cấp quyền qua ADB và cài cập nhật đè; cần thử nút thực tế trên DiLink. ADB cần được bật và khóa của app được chấp nhận.",
   "assets": {
     "arm64-v8a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.45/BYD-Camera-0.3.45-release-arm64.apk",
-      "size": 318146,
-      "sha256": "2bd76916dd334d80b20abc1f3d91e046f30bd3d3373a3c24c2a632e1390372f2"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.46/BYD-Camera-0.3.46-release-arm64.apk",
+      "size": 327094,
+      "sha256": "02d40faa4daec1ad7738162a064e98a902615b10fea193917302ad4e60f84157"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.45/BYD-Camera-0.3.45-release-arm32.apk",
-      "size": 318146,
-      "sha256": "2bd76916dd334d80b20abc1f3d91e046f30bd3d3373a3c24c2a632e1390372f2"
+      "url": "https://github.com/doanduy/byd-misc-release/releases/download/byd-camera/v0.3.46/BYD-Camera-0.3.46-release-arm32.apk",
+      "size": 327094,
+      "sha256": "02d40faa4daec1ad7738162a064e98a902615b10fea193917302ad4e60f84157"
     }
   }
 }
